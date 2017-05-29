@@ -1,0 +1,12 @@
+version: '2'
+services:
+    'image-service':
+        extends:
+            file: docker-compose.yml
+            service: image-service 
+        command: >
+          bash -c "
+            make unit_tests && \
+            make integration_tests && \
+            make system_tests
+          "

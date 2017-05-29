@@ -1,0 +1,109 @@
+hash: e57fb690a568b80fc59f6bff4693bc85c5614ace2a2d7d61a810f18991855223
+updated: 2017-05-29T15:53:19.796246552+01:00
+imports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/golang/protobuf
+  version: 9f174c986221c608fb5143bd623b6076a71feae3
+  subpackages:
+  - proto
+  - ptypes/any
+- name: github.com/grpc/grpc-go
+  version: 2739967807cc0e3199513569f58fda34252ad65e
+- name: github.com/hashicorp/hcl
+  version: 7fa7fff964d035e8a162cce3a164b3ad02ad651b
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/token
+  - json/parser
+  - hcl/scanner
+  - hcl/strconv
+  - json/scanner
+  - json/token
+- name: github.com/magiconair/properties
+  version: 51463bfca2576e06c62a8504b5c0f06d61312647
+- name: github.com/mitchellh/mapstructure
+  version: cc8532a8e9a55ea36402aa21efdf403a60d34096
+- name: github.com/onsi/ginkgo
+  version: a1f616c97771e46da1722d3aa9dcde0a43f55682
+- name: github.com/onsi/gomega
+  version: 39a54bd3c3bbfe1c331a9b3207e92134c77ed812
+- name: github.com/pelletier/go-buffruneio
+  version: c37440a7cf42ac63b919c752ca73a85067e05992
+- name: github.com/pelletier/go-toml
+  version: fe206efb84b2bc8e8cfafe6b4c1826622be969e3
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/spf13/afero
+  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/cobra
+  version: 7b1b6e8dc027253d45fc029bc269d1c019f83a34
+- name: github.com/spf13/jwalterweatherman
+  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+- name: github.com/spf13/pflag
+  version: f1d95a35e132e8a1868023a08932b14f0b8b8fcb
+- name: github.com/spf13/viper
+  version: 0967fc9aceab2ce9da34061253ac10fb99bba5b2
+- name: github.com/stretchr/objx
+  version: cbeaeb16a013161a98496fad62933b1d21786672
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - mock
+  - assert
+- name: golang.org/x/net
+  version: 48359f4f600b3a2d5cf657458e3f940021631a56
+  subpackages:
+  - html/charset
+  - context
+  - http2
+  - trace
+  - http2/hpack
+  - idna
+  - lex/httplex
+  - internal/timeseries
+- name: golang.org/x/sys
+  version: a55a76086885b80f79961eacb876ebd8caf3868d
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 19e51611da83d6be54ddafce4a4af510cb3e9ea4
+  subpackages:
+  - transform
+  - unicode/norm
+  - secure/bidirule
+  - unicode/bidi
+- name: google.golang.org/genproto
+  version: d80a6e20e776b0b17a324d0ba1ab50a39c8e8944
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 2739967807cc0e3199513569f58fda34252ad65e
+  subpackages:
+  - codes
+  - credentials
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - stats
+  - status
+  - tap
+  - transport
+- name: gopkg.in/yaml.v2
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports: []

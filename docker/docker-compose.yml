@@ -1,0 +1,10 @@
+version: '2'
+services:
+  'image-service':
+      build:
+          dockerfile: dev.Dockerfile
+          context: .
+      image: image-service
+      env_file: ../default.env
+      volumes:
+          - ../:/var/go/src/github.com/eggsbenjamin/image-service
