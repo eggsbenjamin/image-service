@@ -6,5 +6,8 @@ services:
           context: .
       image: image-service
       env_file: ../default.env
+      environment:
+        - GOOGLE_SEARCH_API_KEY=${GOOGLE_SEARCH_API_KEY}
+        - GOOGLE_SEARCH_API_CX=${GOOGLE_SEARCH_API_CX}
       volumes:
           - ../:/var/go/src/github.com/eggsbenjamin/image-service
