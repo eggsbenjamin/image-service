@@ -2,10 +2,10 @@ install:
 	glide install
 
 unit_tests:
-	echo TODO
+	go test -v ./service/... -tags=unit
 
 integration_tests:
-	echo TODO
+	go test -v ./service/... -tags=integration
 
 system_tests:
 	go test -v ./systemtest -tags=system
